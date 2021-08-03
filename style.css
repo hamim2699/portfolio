@@ -1,0 +1,179 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    
+    background-color: rgb(24, 22, 22);
+    color: white;
+  }
+  
+  .aqua-color {
+    color: aqua;
+  }
+  
+  .main-nav {
+    display: flex;
+    background-color: black;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 5px 10px 5px rgb(43, 40, 40);
+  }
+  
+  a {
+    text-decoration: none;
+    padding: 15px;
+    color: rgba(247, 245, 245, 0.767);
+    border-radius: 25px;
+  }
+  
+  a:hover {
+    /* color: brown; */
+    background-color: rgb(24, 22, 22);
+    border: 2px solid rgb(131, 120, 120);
+    border-radius: 25px;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  .flexible-content {
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 150px;
+  }
+  
+  .half-width {
+    width: 50%;
+    padding-left: 2%;
+  }
+  
+  .half-width img {
+    height: 450px;
+    width: 450px;
+    /* border-radius: 50%; */
+    margin-left: 20%;
+    margin-top: -50px;
+    border-radius: 15px;
+  }
+  
+  .link-button {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(rgb(144, 199, 199), rgb(166, 209, 209));
+    color: whitesmoke;
+    font-weight: 700;
+    
+  }
+  
+  
+  /* nav {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+  } */
+  
+  .dream {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  
+  p {
+    padding: 4px;
+  }
+  #progressbar {
+    background-color: rgb(233, 48, 48);
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 0px;
+  }
+  
+  #progressbar > div {
+    background-color: orange;
+    width: 40%;
+    /* Adjust with JavaScript */
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 10px;
+  }
+  
+  #skills {
+    margin-left: 20px;
+  }
+  
+  .skill-item {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    border-radius: 10px;
+  }
+  
+  #Projects {
+    margin-left: 20px;
+  }
+  
+  .project-item {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    border-radius: 10px;
+  }
+  
+  .project-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+  
+  #cpp {
+    border-left: 5px solid;
+    border-image: linear-gradient(orange, rgb(199, 186, 184));
+    border-image-slice: 1;
+  }
+  
+  #java {
+    border-left: 5px solid;
+    border-image: linear-gradient(aqua, cyan);
+    border-image-slice: 1;
+  }
+  #contacts {
+    margin-left: ;
+  }
+  .contact-item {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    border-radius: 10px;
+  }
+  #information {
+    border-left: 5px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+  }
+  #message {
+    border-left: 5px solid;
+    border-image: linear-gradient(aqua, cyan);
+    border-image-slice: 1;
+  }
+  .input-button {
+    color: white;
+    background-image: linear-gradient(to left, #e12637, #ff5032);
+    padding: 10px 38px;
+    border-radius: 100px;
+    margin-left: 15px;
+  }
+  .message {
+    padding: 10px 99px 8px 10px;
+    margin: 15px 30px 15px 30px;
+    border: 1px solid #ff5032;
+  }
+  
+  footer p {
+    text-align: center;
+    color: grey;
+  }
+  
